@@ -17,6 +17,14 @@ function App() {
         >
           Learn React
         </a>
+
+        <form action="/api/test" method="POST">
+        <button type="submit">
+      Submit
+      </button>
+
+          </form>
+ 
       </header>
     </div>
   );
