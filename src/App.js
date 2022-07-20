@@ -2,6 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+const handleEv = ()=>{
+  return fetch('/api/test')
+}
+
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -24,6 +31,10 @@ function App() {
       </button>
 
           </form>
+
+          <button onClick={()=>handleEv()}>
+             Submit_with_fetch_api_call
+      </button>
  
       </header>
     </div>
